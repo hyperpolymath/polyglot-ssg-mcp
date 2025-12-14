@@ -1,16 +1,19 @@
 {
-  "name": "@anthropic/polyglot-ssg-mcp",
-  "version": "1.0.0",
-  "exports": "./index.js",
+  "name": "@hyperpolymath/polyglot-ssg-mcp",
+  "version": "1.1.0",
+  "exports": "./server.js",
   "imports": {
     "@anthropic-ai/sdk": "npm:@anthropic-ai/sdk@^0.39.0",
-    "@modelcontextprotocol/sdk/server/mcp.js": "npm:@modelcontextprotocol/sdk@1.0.0/server/mcp.js",
-    "@modelcontextprotocol/sdk/server/stdio.js": "npm:@modelcontextprotocol/sdk@1.0.0/server/stdio.js"
+    "@modelcontextprotocol/sdk/server/mcp.js": "npm:@modelcontextprotocol/sdk@1.24.3/server/mcp.js",
+    "@modelcontextprotocol/sdk/server/stdio.js": "npm:@modelcontextprotocol/sdk@1.24.3/server/stdio.js",
+    "@modelcontextprotocol/sdk/": "npm:@modelcontextprotocol/sdk@1.24.3/"
   },
   "tasks": {
-    "start": "deno run --allow-run --allow-read --allow-write --allow-env index.js",
-    "dev": "deno run --watch --allow-run --allow-read --allow-write --allow-env index.js",
-    "check": "deno check index.js",
+    "start": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net server.js",
+    "dev": "deno run --watch --allow-run --allow-read --allow-write --allow-env --allow-net server.js",
+    "serve": "MCP_HTTP_MODE=true deno run --allow-run --allow-read --allow-write --allow-env --allow-net server.js",
+    "serve:dev": "MCP_HTTP_MODE=true deno run --watch --allow-run --allow-read --allow-write --allow-env --allow-net server.js",
+    "check": "deno check server.js",
     "lint": "deno lint --ignore=node_modules,lib",
     "fmt": "deno fmt --ignore=node_modules,lib",
     "res:build": "npx rescript build",
