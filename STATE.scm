@@ -1,65 +1,22 @@
-;; SPDX-License-Identifier: MIT
+;;; STATE.scm — poly-ssg-mcp
+;; SPDX-License-Identifier: AGPL-3.0-or-later
 ;; SPDX-FileCopyrightText: 2025 Jonathan D.A. Jewell
 
-;; STATE.scm — Project State Tracking
-;; polyglot-ssg-mcp: Unified MCP for 28 Static Site Generators
+(define metadata
+  '((version . "0.1.0") (updated . "2025-12-15") (project . "poly-ssg-mcp")))
 
-(define-module (polyglot-ssg-mcp state)
-  #:export (project-state))
+(define current-position
+  '((phase . "v0.1 - Initial Setup")
+    (overall-completion . 25)
+    (components ((rsr-compliance ((status . "complete") (completion . 100)))))))
 
-(define project-state
-  '((metadata
-     (title . "polyglot-ssg-mcp")
-     (version . "1.0.0")
-     (description . "Unified MCP server for 28 static site generators across 19 languages")
-     (creator . "Jonathan D.A. Jewell")
-     (date . "2025-12-12")
-     (license . "MIT")
-     (language . ("ReScript" "JavaScript"))
-     (runtime . "Deno"))
+(define blockers-and-issues '((critical ()) (high-priority ())))
 
-    (statistics
-     (ssgs . 28)
-     (languages . 19)
-     (adapters . 28)
-     (tools-per-adapter . "5-8"))
+(define critical-next-actions
+  '((immediate (("Verify CI/CD" . high))) (this-week (("Expand tests" . medium)))))
 
-    (languages
-     (rust . ("Zola" "Cobalt" "mdBook"))
-     (elixir . ("Serum" "NimblePublisher" "Tableau"))
-     (haskell . ("Hakyll" "Ema"))
-     (ocaml . ("YOCaml"))
-     (fsharp . ("Fornax"))
-     (swift . ("Publish"))
-     (common-lisp . ("Coleslaw"))
-     (kotlin . ("Orchid"))
-     (julia . ("Franklin.jl" "StaticWebPages.jl" "Documenter.jl"))
-     (clojure . ("Cryogen" "Perun" "Babashka"))
-     (scala . ("Laika" "ScalaTex"))
-     (erlang . ("Zotonic"))
-     (racket . ("Pollen" "Frog"))
-     (d . ("Reggae"))
-     (tcl . ("Wub"))
-     (crystal . ("Marmot"))
-     (nim . ("Nimrod")))
+(define session-history
+  '((snapshots ((date . "2025-12-15") (session . "initial") (notes . "SCM files added")))))
 
-    (roadmap
-     (v1.0.0
-      (status . "released")
-      (features . ("28 SSG adapters"
-                   "19 language support"
-                   "Meta tools"
-                   "ReScript core")))
-     (v1.1.0
-      (status . "planned")
-      (features . ("Additional adapters"
-                   "Template management"
-                   "Cross-SSG migration"))))
-
-    (rsr-compliance
-     (level . "Silver")
-     (requirements-met . ("SPDX headers"
-                          "AsciiDoc documentation"
-                          "Scheme metadata"
-                          "justfile"
-                          "CI/CD workflows")))))
+(define state-summary
+  '((project . "poly-ssg-mcp") (completion . 25) (blockers . 0) (updated . "2025-12-15")))
