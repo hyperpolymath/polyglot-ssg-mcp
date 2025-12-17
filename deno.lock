@@ -2,7 +2,8 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@modelcontextprotocol/sdk@1.24.3": "npm:@modelcontextprotocol/sdk@1.24.3_zod@4.1.13_ajv@8.17.1_express@5.2.1"
+      "npm:@modelcontextprotocol/sdk@1.24.3": "npm:@modelcontextprotocol/sdk@1.24.3_zod@4.1.13_ajv@8.17.1_express@5.2.1",
+      "npm:rescript": "npm:rescript@12.0.1"
     },
     "npm": {
       "@modelcontextprotocol/sdk@1.24.3_zod@4.1.13_ajv@8.17.1_express@5.2.1": {
@@ -23,6 +24,30 @@
           "zod": "zod@4.1.13",
           "zod-to-json-schema": "zod-to-json-schema@3.25.0_zod@4.1.13"
         }
+      },
+      "@rescript/darwin-arm64@12.0.1": {
+        "integrity": "sha512-JJddiKKfOSc9X+2rt6IrbEUlOBaIfgjkWzCN986czZ5YV4lh3jysPVk6EQHaip2ibPkwf/nLv6Pin4t+XmdqLQ==",
+        "dependencies": {}
+      },
+      "@rescript/darwin-x64@12.0.1": {
+        "integrity": "sha512-tZSeHr9MQ90oKULDIn9ugvP08eLCflH2uO02iF7z1i8RshPrfD36qFiPOn4WxzcSJuqynffNLEgeWYrnPiZ0JQ==",
+        "dependencies": {}
+      },
+      "@rescript/linux-arm64@12.0.1": {
+        "integrity": "sha512-V/xnkFgEvSRMlyT1XCptnWWXgySFR9aKdja74VeDyEGLc6MGmi8zopxUUFcwCQXxV/zPAFkIxjz8xMY0SBCAmQ==",
+        "dependencies": {}
+      },
+      "@rescript/linux-x64@12.0.1": {
+        "integrity": "sha512-WpVBjAvLsKATOJTckI6PDf4IFnHHxwsSVtklC+XAXbwqHLP1gqDDuVcykOOIWexxepod+QvBvEZGjzNPJ5L8gA==",
+        "dependencies": {}
+      },
+      "@rescript/runtime@12.0.1": {
+        "integrity": "sha512-pMoWvllPFK0cl87vMYBVvll+DaAdPAsRuLIIJa+Q8LMhcS7cqpaZVflU3LbH+U/kv3vWaUYIfLBObwGnXw/CDg==",
+        "dependencies": {}
+      },
+      "@rescript/win32-x64@12.0.1": {
+        "integrity": "sha512-Hv6nwb6A94qtj6b4PcIsmoWhLIcLt6wLuHpD9YNxj4/d9FkrHM/yj9ZKhKan/9rfg4wkHl1cZE898AZe/nWq9g==",
+        "dependencies": {}
       },
       "accepts@2.0.0": {
         "integrity": "sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==",
@@ -409,6 +434,17 @@
         "integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",
         "dependencies": {}
       },
+      "rescript@12.0.1": {
+        "integrity": "sha512-59JyEUyLj+IPd9VutAXpBXRGqaeaHCMtvACJNAy/oI1hjpjklQ2UJE07oLhxoWB4SDZrCxzowNUpE46UAgjOXg==",
+        "dependencies": {
+          "@rescript/darwin-arm64": "@rescript/darwin-arm64@12.0.1",
+          "@rescript/darwin-x64": "@rescript/darwin-x64@12.0.1",
+          "@rescript/linux-arm64": "@rescript/linux-arm64@12.0.1",
+          "@rescript/linux-x64": "@rescript/linux-x64@12.0.1",
+          "@rescript/runtime": "@rescript/runtime@12.0.1",
+          "@rescript/win32-x64": "@rescript/win32-x64@12.0.1"
+        }
+      },
       "router@2.2.0": {
         "integrity": "sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nVPz+gAYQ==",
         "dependencies": {
@@ -548,7 +584,8 @@
   "workspace": {
     "dependencies": [
       "npm:@anthropic-ai/sdk@^0.39.0",
-      "npm:@modelcontextprotocol/sdk@1.24.3"
+      "npm:@modelcontextprotocol/sdk@1.24.3",
+      "npm:@rescript/runtime@12.0.1"
     ],
     "packageJson": {
       "dependencies": [

@@ -7,10 +7,11 @@
 
 Unified MCP server for **28 static site generators** across **19 programming languages**.
 
+image:https://img.shields.io/badge/RSR-compliant-gold[RSR Compliant,link=https://github.com/hyperpolymath/rhodium-standard-repositories]
+image:https://img.shields.io/badge/MCP-server-blue[MCP Server,link=https://github.com/modelcontextprotocol]
 image:https://img.shields.io/badge/SSGs-28-blue[SSGs]
 image:https://img.shields.io/badge/Languages-19-green[Languages]
-image:https://img.shields.io/badge/License-MIT-yellow[License]
-image:https://img.shields.io/badge/RSR-Silver-silver[RSR Compliance]
+image:https://img.shields.io/badge/license-MIT-green[License]
 
 toc::[]
 
