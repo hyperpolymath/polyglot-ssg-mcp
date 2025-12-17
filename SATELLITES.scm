@@ -10,8 +10,8 @@
   (hub
     (name "poly-ssg-mcp")
     (url "https://github.com/hyperpolymath/poly-ssg-mcp")
-    (description "Unified MCP server for 28 static site generators across 19 languages")
-    (adapters 28))
+    (description "Unified MCP server for 29 static site generators across 20 languages")
+    (adapters 29))
 
   ;; SSG Satellite Projects
   ;; Each satellite can use any adapter from the hub via MCP
@@ -184,6 +184,7 @@
     (adapter (name "wub") (language "Tcl"))
     (adapter (name "yocaml") (language "OCaml"))
     (adapter (name "zola") (language "Rust"))
-    (adapter (name "zotonic") (language "Erlang"))))
+    (adapter (name "zotonic") (language "Erlang"))
+    (adapter (name "corral") (language "Pony"))))
 
 ;;; End of SATELLITES.scm

@@ -10,12 +10,12 @@
 (define ai-instructions
   '((project-context
      (name . "polyglot-ssg-mcp")
-     (purpose . "Unified MCP server for 28 static site generators")
+     (purpose . "Unified MCP server for 29 static site generators")
      (scope . "FP/systems/academic languages only - no mainstream JS/Python/Ruby"))
 
     (key-facts
-     (ssgs . 28)
-     (languages . 19)
+     (ssgs . 29)
+     (languages . 20)
      (runtime . "Deno")
      (core . "ReScript")
      (license . "MIT"))
@@ -24,7 +24,7 @@
      (ml-family . ("Haskell" "OCaml" "F#"))
      (lisp-family . ("Clojure" "Common Lisp" "Racket"))
      (beam . ("Elixir" "Erlang"))
-     (systems . ("Rust" "D" "Nim" "Crystal"))
+     (systems . ("Rust" "D" "Nim" "Crystal" "Pony"))
      (scientific . ("Julia" "Scala"))
      (other . ("Swift" "Kotlin" "Tcl")))
 

@@ -116,10 +116,10 @@ jobs:
 
       - name: Count adapters
         run: |
-          COUNT=$(ls adapters/*.js | wc -l)
-          echo "Found $COUNT adapters"
-          if [ "$COUNT" -lt 28 ]; then
-            echo "ERROR: Expected 28 adapters, found $COUNT"
+          COUNT=$(ls src/adapters/*.res | wc -l)
+          echo "Found $COUNT ReScript adapters"
+          if [ "$COUNT" -lt 29 ]; then
+            echo "ERROR: Expected 29 adapters, found $COUNT"
             exit 1
           fi
-          echo "OK: All 28 adapters present"
+          echo "OK: All 29 adapters present"

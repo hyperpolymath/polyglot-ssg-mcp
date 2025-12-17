@@ -2,8 +2,8 @@
 # See: AI.scm for detailed Scheme-based instructions
 
 Project: polyglot-ssg-mcp
-Purpose: Unified MCP server for 28 static site generators
-Languages: 19 (Rust, Elixir, Haskell, OCaml, F#, Swift, Common Lisp, Kotlin, Julia, Clojure, Scala, Erlang, Racket, D, Tcl, Crystal, Nim)
+Purpose: Unified MCP server for 29 static site generators
+Languages: 20 (Rust, Elixir, Haskell, OCaml, F#, Swift, Common Lisp, Kotlin, Julia, Clojure, Scala, Erlang, Racket, D, Tcl, Crystal, Nim, Pony)
 Runtime: Deno
 Core: ReScript
 License: MIT
