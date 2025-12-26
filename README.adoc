@@ -25,6 +25,10 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |===
 |Language |SSGs |Notes
 
+|**Arrow**
+|Undo
+|
+
 |**Clojure**
 |Babashka, Cryogen, Perun
 |Data-driven, REPL workflow
@@ -64,6 +68,10 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |**Julia**
 |Documenter.jl, Franklin.jl, StaticWebPages.jl
 |Scientific/academic publishing
+
+|**Just**
+|Praxis
+|
 
 |**Kotlin**
 |Orchid
