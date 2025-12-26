@@ -25,6 +25,10 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |===
 |Language |SSGs |Notes
 
+|**Ada/SPARK**
+|Anvil
+|
+
 |**Agda**
 |QED
 |
@@ -69,9 +73,17 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |Marmot
 |Ruby-like syntax, compiled
 
+|**Curry**
+|Vindaloo
+|
+
 |**D**
 |Reggae
 |Systems programming build tool
+
+|**Deno**
+|Saur
+|
 
 |**Eclexia**
 |Pareto
@@ -92,6 +104,11 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |**F#**
 |Fornax
 |.NET ecosystem, type providers
+
+
+|**Factor**
+|Warp
+|
 
 |**Haskell**
 |Casket, Ema, Hakyll
@@ -120,6 +137,14 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |**Kotlin**
 |Orchid
 |JVM, documentation-focused
+
+|**Life**
+|Hackenbush
+| Conways Game of Life, turing-complete language
+
+|**Malbolge**
+|Bolgia
+|
 
 |**Mojo**
 |Easel
@@ -157,6 +182,14 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |Consensus
 |
 
+|**RED**
+|REDShift
+|
+
+|**Rescript**
+|Rescribe
+|
+
 |**Rust**
 |Cobalt, mdBook, Zola
 |Fast, single-binary tools
@@ -185,7 +218,15 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |Wagasm
 |
 
+|**Z**
+|Region
+|
+
 SPECIAL CASE
+
+|**AQL**
+|Avocado
+|
 
 |**RISC-V**
 |Baremetal
