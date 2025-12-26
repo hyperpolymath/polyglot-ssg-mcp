@@ -33,6 +33,10 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |Odd
 |
 
+|**Chapel**
+|Parallax
+|
+
 |**Clojure**
 |Babashka, Cryogen, Perun
 |Data-driven, REPL workflow
@@ -48,6 +52,10 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |**D**
 |Reggae
 |Systems programming build tool
+
+|**Eclexia**
+|Pareto
+|
 
 |**Elixir**
 |NimblePublisher, Serum, Tableau
@@ -68,6 +76,11 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |**Haskell**
 |Casket, Ema, Hakyll
 |FP-native, Pandoc integration
+
+
+|**Idris2**
+|Ddraig
+|
 
 |**Janus**
 |Liminal
