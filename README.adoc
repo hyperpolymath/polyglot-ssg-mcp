@@ -25,73 +25,86 @@ polyglot-ssg-mcp provides a unified interface for static site generators across 
 |===
 |Language |SSGs |Notes
 
-|**Rust**
-|Zola, Cobalt, mdBook
-|Fast, single-binary tools
-
-|**Elixir**
-|Serum, NimblePublisher, Tableau
-|BEAM ecosystem, Phoenix integration
-
-|**Haskell**
-|Hakyll, Ema
-|FP-native, Pandoc integration
-
-|**OCaml**
-|YOCaml
-|Composable, type-safe
-
-|**F#**
-|Fornax
-|.NET ecosystem, type providers
-
-|**Swift**
-|Publish
-|Apple ecosystem, SwiftUI-style API
+|**Clojure**
+|Babashka, Cryogen, Perun
+|Data-driven, REPL workflow
 
 |**Common Lisp**
 |Coleslaw
 |Extensible, macro-powered
 
-|**Kotlin**
-|Orchid
-|JVM, documentation-focused
-
-|**Julia**
-|Franklin.jl, StaticWebPages.jl, Documenter.jl
-|Scientific/academic publishing
-
-|**Clojure**
-|Cryogen, Perun, Babashka
-|Data-driven, REPL workflow
-
-|**Scala**
-|Laika, ScalaTex
-|Multi-format output (HTML, PDF, EPUB)
-
-|**Erlang**
-|Zotonic
-|CMS with static export
-
-|**Racket**
-|Pollen, Frog
-|Publishing-focused, typesetting
+|**Crystal**
+|Marmot
+|Ruby-like syntax, compiled
 
 |**D**
 |Reggae
 |Systems programming build tool
 
+|**Elixir**
+|NimblePublisher, Serum, Tableau
+|BEAM ecosystem, Phoenix integration
+
+|**Erlang**
+|Zotonic
+|CMS with static export
+
+|**Forth**
+|Estate
+|
+
+|**F#**
+|Fornax
+|.NET ecosystem, type providers
+
+|**Haskell**
+|Casket, Ema, Hakyll
+|FP-native, Pandoc integration
+
+|**Julia**
+|Documenter.jl, Franklin.jl, StaticWebPages.jl
+|Scientific/academic publishing
+
+|**Kotlin**
+|Orchid
+|JVM, documentation-focused
+
+|**My**
+|My-ssg
+|
+
+|**Nim**
+|Nimrod (nimib ecosystem), Rats
+|Python-like, compiled
+
+|**OCaml**
+|Macrauchenia, YOCaml
+|Composable, type-safe
+
+|**Betlang**
+|Odd
+|
+
+|**Racket**
+|Frog, Pollen
+|Publishing-focused, typesetting
+
+|**Rust**
+|Cobalt, mdBook, Zola
+|Fast, single-binary tools
+
+|**Scala**
+|Laika, ScalaTex
+|Multi-format output (HTML, PDF, EPUB)
+
+|**Swift**
+|Publish
+|Apple ecosystem, SwiftUI-style API
+
 |**Tcl**
 |Wub
 |Web framework with static generation
 
-|**Crystal**
-|Marmot
-|Ruby-like syntax, compiled
-
-|**Nim**
-|Nimrod (nimib ecosystem)
-|Python-like, compiled
 |===
 
 == Quick Start
